@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Laugh</title>
+    <link
+      id="favicon"
+      rel="shortcut icon"
+      type="image/png"
+      href="/favicon.png"
+    />
     <style>
       body {
         padding: 0;
@@ -101,5 +107,14 @@
     <a href="https://github.com/aaronsaray/laugh" id="❓" title="What?">
       ?
     </a>
+    <audio src="laugh.mp3" preload="auto"></audio>
+    <script>
+      document.querySelector("button").addEventListener("click", function() {
+        const a = document.querySelector("audio");
+        a.pause();
+        a.currentTime = 0;
+        a.play();
+      });
+    </script>
   </body>
 </html>
