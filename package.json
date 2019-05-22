@@ -1,0 +1,19 @@
+{
+  "name": "laugh",
+  "version": "1.0.0",
+  "description": "Minimal plain CSS and JS demonstration of laughing button",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronsaray/laugh.git"
+  },
+  "author": "Aaron Saray",
+  "license": "MIT",
+  "homepage": "http://aaronsaray.github.io/laugh"
+}
